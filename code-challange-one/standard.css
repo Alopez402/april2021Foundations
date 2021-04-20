@@ -1,0 +1,19 @@
+nav{
+    background-color: darkblue;
+
+    display: flex ;
+    
+    flex-wrap: wrap;
+
+    flex-direction: row;  
+    
+    color: cyan;
+
+}
+
+a{
+    class="Code Challege #1">
+    font-size: 14px;
+    font=style: italic;
+
+}
