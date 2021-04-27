@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace
+    ;
+    font-size: 17px;
+    color: cyan;
+    line-height:1.6;
+}
+
+#kitten{
+    background-image: url('../images/logo-3.png';
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
