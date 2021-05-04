@@ -10,6 +10,11 @@ Grid
     box-sizing: border-box;
 }
 
+body {
+    color: #11073fe3;
+    font: 300 16px/22px "Lato", "Open Sans" 
+}
+
 .container {
     margin: 0 auto;
     padding-left: 30px;
@@ -19,6 +24,52 @@ Grid
 
 h1, h3, h4, h5, p {
     margin-bottom: 22px;
+}
+
+h1, h2, h3, h4, {
+    color: #6c89db
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 44px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 44px;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    color: #4568c9;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+strong {
+    font-weight: 400;
+}
+
+cite,
+em {
+    font-style: italic;
+}
+
+a {
+    color: #6c89db;
+}
+
+a:hover {
+    color: #a9b2b9;
 }
 
 /*
@@ -31,13 +82,88 @@ buttons
     border-radius: 5px;
     display: inline-block;
     margin:0;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
 }
 
 .btn-alt {
-    border: 1px solid #dfe2e5;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+}
+
+.btn-alt:hover {
+    background: #fff;
     padding: 10px 30px;
 }
 
 .hero {
+    color: #fff;
+    line-height: 44px;
     padding: 22px 80px 66px 80px;
+    text-align: center;
 }
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+.tagline {
+    margin: 66px 0 22px 0;
+    text-align: right;
+}
+
+.primary-nav {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.primary-footer {
+    color: #6c89db;
+    font-size: 14px;
+    padding-bottom: 44px;
+    padding-top: 44px;
+}
+
+.primary-footer small {
+    float: left;
+    font-weight: 400;
+}
+
+,.primary-footer a:hover {
+    color: #a9b2b9;
+}
+
+.col-1-3 {
+    width: 33.33%;
+}
+
+.col-2-3 {
+    width: 66.66%;
+}
+
+.col-1-3,
+.col-2-3 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.grid,
+.col-1-3,
+.col-2-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.teaser a:hover h3 {
+    color: #a9b2b9;
+}
+

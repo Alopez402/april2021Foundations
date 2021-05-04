@@ -12,8 +12,12 @@ body{
 }
 
 #kitten{
-    background-image: url('../images/logo-3.png';
+    background-image: url('../images/logo-3.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
+}
+
+h1 {
+    font-size: 3em;
 }
