@@ -19,7 +19,7 @@
     transform: translate(-50%);
 }
 
-.block1, .block2 {
+.block1, .block2 { /* block1 and block2 are not classes */
     width: 10%;
     height: 10%;
 }
@@ -31,16 +31,16 @@
     transform: translate(-50%);
 }
 
-.block1 {
+.block1 { /* see line 22 */
     position: absolute;
     background-color: rgba(255, 255, 0, 0.5);
     opacity: 1;
     top: 0;
     left: 0;
-    transition: 3s ease;
+    transition: 3s ease; /* missing what properties the transition is on */
 }
 
-.block2 {
+.block2 { /* see line 22 */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -48,9 +48,11 @@
     background-color: rgba(255, 0, 0, 0.5)
 }
 
-.move > #block1:hover {
+.move > #block1:hover { /* the hover should be on the id of move, not on block1 */
+    /* after you put the hover on move look at the hint for how to handle targeting block1 */
+    /* also move is not a class */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+ /* still need to deal with size, opacity and color */
